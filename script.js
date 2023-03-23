@@ -5,8 +5,11 @@ function threeSum(arr, target) {
   	for(let i=index;i<=index+2;i++){
 		sum+=arr[i];
 	}
-	  if(sum+1==target){
+	  if(sum==target){
 		 return sum;
+	  }
+	  else if(sum-1==target){
+		  return sum;
 	  }
   }
 return
