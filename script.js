@@ -1,7 +1,7 @@
 function threeSum(arr, target) {
 // write your code he
 
-    let closestSum = Integer.MAX_VALUE;
+    let closestSum = Number.MAX_VALUE;
 for(let i=0;i<arr.length;i++){
 	for(let j=i+1;j<arr.length;j++){
 		let sum=0;
